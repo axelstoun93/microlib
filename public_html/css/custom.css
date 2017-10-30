@@ -1,0 +1,491 @@
+.cd-intro
+{
+    background-color:rgba(255,255,255,0.7);
+}
+.cd-intro p
+{
+    color:#3b77b7;
+    padding-bottom:15px;
+}
+.cd-desc
+{
+    background-color:rgba(255,255,255,0.7);
+    color:#3b77b7;
+    padding-bottom: 5px;
+}
+.cd-desc p
+{
+
+    color:#3b77b7;
+}#button-phone {display:none;}
+#treatments
+{
+    margin: 0;
+    padding: 0;
+}
+.tab-content h2 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: -25px 0 80px;
+    padding-top: 0;
+}
+.gallery .gallery-container .gallery-thumbnail-container {
+    cursor: pointer;
+    height: 175px;
+    overflow: hidden;
+}
+.gallery-desc
+{
+    padding-top: 20px;
+    margin-top:20px ;
+}
+.gallery-desc
+{
+    border-bottom: 1px solid #b5bcc5;
+    padding-bottom: 45px;
+
+}
+.gallery-desc ul li i {
+    color:#3b77b7;
+    font-size:36px !important;
+    margin-right: 5px;
+    text-align:center;
+    width:46px;
+    vertical-align: middle;
+}
+.gallery-desc ul li  {
+    padding-bottom: 10px;
+}
+.pricing-table .pricing-table-offer .offer-price .price {
+    font-size: 26px;
+    font-weight: 500;
+}
+.pricing-table .pricing-table-offer .offer-price .price  i
+{
+    font-size: 23px;
+    font-weight: normal;
+}
+.pricing-table .pricing-table-offer .offer-price
+{
+    padding-top: 54px;
+}
+
+.no-padding
+{
+    padding: 0;
+}
+.pricing-table {
+    padding-top:40px;
+}
+.content-img-right h2,.content-img-left h2
+{
+    color:#3b77b7;
+}
+
+/* Слайдер Блок */
+.s-block
+{
+    max-width: 360px;
+    float: none;
+    margin:-30px auto;
+    padding-top: -20px;
+}
+.header-full-screen-img {
+    background:url("../img/header-background-3.jpg") 0 0 / cover no-repeat scroll #CCCCCC;
+    padding-top:380px;
+}
+.s-block p
+{
+    font-size:16px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.s-block hr
+{
+
+    margin: 0 0 0 0;
+}
+.s-block .btn
+{
+    width: 100%;
+}
+.fullscreen {
+    min-height:100%;
+    width:100%;
+}
+/* Подложка слайдера */
+/*
+#home .row
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    top:auto;
+    margin: auto;
+}
+*/
+.header-full-screen-img .scroll-down
+{
+    display: none;
+}
+/* 26. Appointment Modal
+--------------------------------------------*/
+#appointmentModal .modal-dialog .modal-content .modal-body .personal-information .input-group-addon {
+    border: none;
+    color: #ffffff;
+    background-color: #3b77b7;
+    font-size: 24px;
+}
+#appointmentModal .modal-dialog .modal-content .modal-body .personal-information .input-group-addon {
+    font-size: 18px;
+}
+/* 26. Appointment Modal - 2
+--------------------------------------------*/
+#appointmentModal-2 .modal-dialog {
+    width: 748px;
+}
+#appointmentModal-2 .modal-dialog .modal-content {
+    border-radius: 2px;
+    box-shadow: none;
+    border: 2px solid #fff;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-header {
+    color: #fff;
+    background-color: #3b77b7;
+    border-bottom: none;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-header .close {
+    color: #fff;
+    text-shadow: none;
+    opacity: .6;
+    font-size: 27px;
+    margin: 1px 7px 0 0;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-header .close:hover,
+#appointmentModal-2 .modal-dialog .modal-content .modal-header .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-header .modal-title {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body {
+    padding: 0;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body h2 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3b77b7;
+    margin-top: 0;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #3b77b7;
+    font-weight: bold;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body h3 i {
+    font-size: 24px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .info-box {
+    background-color: #faf7fb;
+    padding: 20px 30px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .info-box h3 {
+    color: #575756;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date {
+    padding: 25px 30px 0 30px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select {
+    height: 58px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #e5e9ec;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    margin-top: 3px;
+    position: relative;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select .input-group {
+    width: 100%;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select:after {
+    font-family: FontAwesome;
+    content: '\f13a';
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    font-size: 24px;
+    color: #3b77b7;
+    z-index: 6;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select select {
+    background: transparent;
+    padding: 15px 0px 15px 10px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 58px;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    box-shadow: none;
+    color: #3b77b7;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select:before {
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0px;
+    top: 0px;
+    height: 58px;
+    width: 58px;
+    margin: 0;
+    background: #e5e9ec;
+    z-index: 5;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date select::-ms-expand {
+    display: none;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .date-select {
+    margin-bottom: 10px;
+    float: left;
+    width: 50%;
+    padding-right: 7px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .time-select {
+    margin-bottom: 10px;
+    float: right;
+    width: 50%;
+    overflow: hidden;
+    background-color: #e5e9ec;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: relative;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .time-select:after {
+    font-family: FontAwesome;
+    content: '\f13a';
+    position: absolute;
+    right: 18px;
+    top: 12px;
+    color: #3b77b7;
+    z-index: 6;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .time-select select {
+    background: transparent;
+    padding: 15px 0px 15px 10px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    box-shadow: none;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .time-select:before {
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0px;
+    top: 0px;
+    height: 47px;
+    width: 47px;
+    margin: 0px;
+    background: #e5e9ec;
+    z-index: 5;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .input-group-addon {
+    border: none;
+    color: #ffffff;
+    background-color: #3b77b7;
+    font-size: 24px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information {
+    padding: 0px 30px 20px 30px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .first-name-group {
+    float: left;
+    width: 50%;
+    padding-right: 7px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .last-name-group {
+    float: right;
+    width: 50%;
+    padding-left: 7px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .zip-code-group {
+    float: left;
+    width: 30%;
+    padding-right: 7px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .city-group {
+    float: right;
+    width: 70%;
+    padding-left: 7px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .phone-group {
+    float: left;
+    width: 50%;
+    padding-right: 7px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .email-group {
+    float: right;
+    width: 50%;
+    padding-left: 7px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information label {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #938e8f;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .newsletter-checkbox input[type="checkbox"] {
+    display: none;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .newsletter-checkbox label {
+    font-size: 18px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .newsletter-checkbox label:before {
+    content: "";
+    display: inline-block;
+    font-size: 15px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-color: #e5e9ec;
+    border-radius: 2px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .newsletter-checkbox input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    color: #3b77b7;
+    font-size: 26px;
+    text-shadow: none;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-footer {
+    background-color: #e5e9ec;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .date-select {
+    margin-bottom: 10px;
+    float: left;
+    width: 50%;
+    padding-right: 7px;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .date-select {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+}
+#appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .input-group-addon {
+    border: none;
+    color: #ffffff;
+    background-color: #3b77b7;
+    font-size: 24px;
+}
+@media (max-width: 992px)
+{
+    /* 26. Appointment Modal
+ --------------------------------------------*/
+    #appointmentModal-2 {
+        padding-right: 0 !important;
+    }
+    #appointmentModal-2 .modal-dialog {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .time-select select {
+        padding: 0 0 0 10px;
+    }
+    #appointmentModal-2 .form-group {
+        float: none !important;
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+    #appointmentModal-2 .modal-footer {
+        text-align: center;
+    }
+    /* Слайдер Блок */
+    .s-block
+    {
+        max-width: 360px; /* Ширина элемента в пикселах */
+        float:none;
+        margin: auto; /* Выравниваем по центру */
+    }
+}
+@media (max-width: 660px)
+{
+    /* 26. Appointment Modal
+--------------------------------------------*/
+    #appointmentModal-2 .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 18px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body h2 {
+        font-size: 16px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body h3 {
+        font-size: 14px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body h3 i {
+        font-size: 18px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date {
+        padding: 25px 30px 0 30px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select {
+        height: 52px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select:after {
+        top: 18px;
+        font-size: 18px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select select {
+        height: 52px;
+        font-size: 16px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .date-select {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .time-select {
+        margin-bottom: 10px;
+        float: none;
+        width: 100%;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .input-group-addon {
+        font-size: 18px;
+    }
+    #appointmentModal-2 .modal-dialog .modal-content .modal-body .newsletter-checkbox label {
+        font-size: 14px;
+    }
+}
+
+/*--------------------------------------------*/@media (max-width: 480px){
+	#button-callback {display:none;}	#button-phone {display:block;}}
+@media (max-width: 380px){	.header-full-screen-img {  background:url("../img/header-background-3.jpg") 0px 87px / cover no-repeat scroll #CCCCCC;  padding-top:260px;}}
+
