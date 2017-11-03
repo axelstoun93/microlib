@@ -7,7 +7,7 @@
     <title>Салон красоты Май микроблейдинг бровей</title>
     <!-- Bootstrap & Plugins-->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.css">
     <link rel="stylesheet" href="assets/animatecss/animate.min.css">
     <link rel="stylesheet" href="assets/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" href="assets/animated-headlines/animated-headlines.css">
@@ -63,9 +63,10 @@
         <!-- Nav-Links start -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-			    <li><a href="#info" class="scroll-to">Показания и Результаты</a></li>
-                <li><a href="#price" class="scroll-to">Цены</a></li>
-                <li><a href="#curs" class="scroll-to">Фотогалерея</a></li>
+			    <li><a href="#info" class="scroll-to">Наши услуги</a></li>
+                <li><a href="#guarantees" class="scroll-to">Гарантии</a></li>
+                <li><a href="#jobs" class="scroll-to">Наши работы</a></li>
+                <li><a href="#we" class="scroll-to">О нас</a></li>
                 <li><a href="#reviews" class="scroll-to">Отзывы</a></li>
                 <li><a href="#contact" class="scroll-to">Контакты</a></li>
                 <li><a href="#" class="btn btn-default navbar-btn btn-success show-appointment-modal"><i class="fa fa-phone fa-fw"></i> Перезвонить мне</a></li>
@@ -76,26 +77,26 @@
 </nav>
 <!-- Navigation Top end -->
 <!-- Header Full Screen Img start -->
-<div class="banner-microblading  no-border-top" id="home">
+<div class="banner-bg  no-border-top" id="home">
+    <div class="banner-microblading">
     <img class="background-images" src="img/header-background-3.jpg" alt="background"/>
                 <div class="cd-intro">
                 <h1 class="cd-headline slide"><!--<span style="text-transform:lowercase;">теневой</span>-->
                     <!--Word Slider start-->
-
                     <span class="cd-words-wrapper">
                         <b class="is-visible">Микроблейдинг бровей</b>
                         <b>Пудровые брови </b>
                         <b>Комбинированная техника</b>
                     </span>
-
                     <!--Word Slider end-->
                 </h1>
                 <p>Без отеков, без боли, без шаблонов – безупречный результат!</p>
                 </div>
+    </div>
 </div>
 <!-- Header Full Screen Img end -->
 <!-- Content Img Left start -->
-<section class="content-img-left section-top" data-wow-offset="100" id="price">
+<section class="content-img-left section-top" data-wow-offset="100" id="info">
     <div class="container">
         <div class="row">
             <div class="col-md-6 content-img">
@@ -103,7 +104,7 @@
             </div>
             <div class="col-md-6">
                 <h2>Волосковый метод, теневая растушевка или комбинированная техника – мы подберем для Вас идеальную технику:</h2>
-                <ul>
+                <ol>
                     <li>
                         Прорисовываем идеальную для себя форму – индивидуальная для каждого клиента  форма, толщина и длина бровей
                     </li>
@@ -113,7 +114,7 @@
                     <li>
                         Выбираем ручную или аппаратную технику: для самого нежного и естественного микропигментирования, объема 5D/6D или более четкого контура
                     </li>
-                </ul>
+                </ol>
                 <p >
                     <b>Акция микроблейдинг бровей за 8000 <span class="fa fa-rub"></span> вместо <del>10 000 <span class="fa fa-rub"></span></del> </b>
                 </p>
@@ -125,42 +126,59 @@
 </section>
 <!-- Content Img Left end -->
 <!-- Result -->
-<section class="content result" data-wow-offset="100" id="result">
+<div class="content result wow fadeIn" data-wow-offset="100" id="guarantees">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 title ">
                     <h2 class="text-center">
                        100% гарантия качества
                     </h2>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                    1
+            <div class="col-xs-12 col-sm-6 col-md-2 col-md-offset-1 result-block">
+                <div class="result-icon">
+                    <i class="fa fa-graduation-cap"></i>
+                </div>
+                <p>Высокий профессионализм</p>
             </div>
-            <div class="col-md-3">
-                2
+            <div class="col-xs-12 col-sm-6 col-md-2 result-block">
+                <div class="result-icon">
+                    <i class="fa fa-line-chart"></i>
+                </div>
+                <p>Самые передовые технологии</p>
             </div>
-            <div class="col-md-3">
-                3
+            <div class="col-xs-12 col-sm-6 col-md-2 result-block">
+                <div class="result-icon">
+                    <i class="fa fa-thumbs-o-up"></i>
+                </div>
+                <p>Качественные материалы и профессиональные аппараты </p>
             </div>
-            <div class="col-md-3">
-                4
+            <div class="col-xs-12 col-sm-6 col-md-2 result-block">
+                <div class="result-icon">
+                    <i class="fa fa-plus-square"></i>
+                </div>
+                <p>Стерильность</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 result-block">
+                <div class="result-icon">
+                    <i class="fa fa-leaf"></i>
+                </div>
+                <p>Мягкое заживление</p>
             </div>
         </div>
     </div>
-</section>
+</div>
 <!-- Result end -->
 <!-- Gallery start -->
-<section class="gallery" data-wow-offset="100" id="gallery-1">
-    <div class="container" id='curs'>
+<section class="gallery my-gallery" data-wow-offset="100" id="gallery-1">
+    <div class="container" id='jobs'>
+        <div class="gallery-desc text-center" style="font-weight: bold;">
+            Брови – важный акцент на лице, уделите им 2 часа своего времени и забудьте о ежедневном уходе. Будьте красивы 24/7!
+        </div>
         <div class="row gallery-container wow desc fadeIn">
-
               <!--Gallery Item 1 start-->
             <div class="col-md-3">
                 <div class="gallery-thumbnail-container">
-                    <img class="img-responsive gallery-thumbnail" src="img/mic.jpg" data-img="img/mic.jpg" alt="микроблейдинг">
-
+                    <img class="img-responsive gallery-thumbnail" src="img/mic-0.jpg" data-img="img/mic-0.jpg" alt="микроблейдинг">
                     <div class="gallery-thumbnail-overlay">
                         <div class="gallery-img-title">Микроблейдинг</div>
                         <div class="gallery-img-subtitle">Антон Титаренко</div>
@@ -184,7 +202,6 @@
             <div class="col-md-3">
                 <div class="gallery-thumbnail-container">
                     <img class="img-responsive gallery-thumbnail" src="img/mic-3.jpg" data-img="img/mic-3.jpg" alt="микроблейдинг">
-
                     <div class="gallery-thumbnail-overlay">
                         <div class="gallery-img-title">Микроблейдинг</div>
                         <div class="gallery-img-subtitle">Антон Титаренко</div>
@@ -196,7 +213,6 @@
             <div class="col-md-3">
                 <div class="gallery-thumbnail-container">
                     <img class="img-responsive gallery-thumbnail" src="img/mic-4.jpg" data-img="img/mic-4.jpg" alt="микроблейдинг">
-
                     <div class="gallery-thumbnail-overlay">
                         <div class="gallery-img-title">Микроблейдинг</div>
                         <div class="gallery-img-subtitle">Антон Титаренко</div>
@@ -222,14 +238,11 @@
         </div>
         <!-- Gallery Modal end -->
     </div>
-        <div class="gallery-desc">
-
-        </div>
 </div>
 </section>
 <!-- Gallery end -->
 <!-- Tab Content start -->
-<section class="tab-content wow fadeIn no-padding" data-wow-offset="100" id="info">
+<section class="tab-content wow fadeIn no-padding" data-wow-offset="100" id="we">
     <div class="container">
         <!--Tab Content Title start-->
         <div class="row wow fadeIn" data-wow-offset="200">
@@ -260,21 +273,27 @@
                     <div class="row">
                         <div class="col-md-5">
                             <div class="tab-content-img">
-                                <img src="img/pokazaniya.jpg" alt="Показание LPG" class="img-responsive"/>
+                                <img src="img/vip_salon-2.jpg" alt="Сеть салонов май" class="img-responsive"/>
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <h3>Кроме чисто косметического эффекта микроблейдинг имеет ряд показаний</h3>
+                            <h3>Сеть салонов красоты «Май»</h3>
                             <!-- <h4>Revitalise your senses and refresh your mind!</h4>-->
-                            <ul>
-                                <li>врожденная асимметрия бровей;</li>
-                                <li>выпадение волосков, алопеция и любые другие трихологические патологии;</li>
-                                <li>прерывание линии брови (из-за шрамов или рубцов);</li>
-                                <li>полное отсутствие бровей вследствие перенесенных болезней.</li>
-                            </ul>
+                            <p>Это более 23 лет профессиональной заботы о Вашей красоте и здоровье. Каждый день мы открываем новые грани красоты наших клиентов и достигаем невозможного в мире красоты. Безупречный сервис и высокий профессионализм специалистов – наши главные </p>
                         </div>
                     </div>
                     <br/>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h3>13 салонов бизнес-класса</h3>
+                            <p>Удобно расположены во всех районах города. Вам окажут индивидуальный прием, учтут все Ваши пожелания и подарят поистине красивое настроение!</p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="tab-content-img">
+                                <img src="img/vip_salon.jpg" alt="Сеть салонов май" class="img-responsive"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Tab 1 end -->
                 <!-- Tab 3 end -->
@@ -288,7 +307,12 @@
                         <div class="col-md-7">
                             <h3>Антон Титаренко</h3>
                             <!--<h4>Revitalise your senses and refresh your mind!</h4>-->
-                            <p>Антон Титаренко имеет обязательное в таких профессиях медицинское образование и также является действующим преподавателем учебного центра Weise Master Studio по дисциплинам «перманентный макияж», «художественная татуировка».</p>
+                            <p><i class="fa fa-list-alt"></i> Антон Титаренко, стилист-лейшмейкер и действующий преподавать художественной татуировки и перманентного макияжа в Школе Weiss Tattoo Studio.
+                                <br><br>
+                                <i class="fa fa-user-md"></i> Специализация: микроблейдинг и татуаж бровей во всех техниках, перманентный макияж губ, татуаж век (межресничка, стрелочка).
+                                <br><br>
+                                <i class="fa fa-check-square-o"></i> Выполнено: более 1200 перманентного татуажа бровей, более 500 перманентного макияжа губ, более 400 татуажа век
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -305,7 +329,6 @@
 
                                 <div class="gallery-thumbnail-overlay">
                                     <div class="gallery-img-title">Салон красоты Май</div>
-                                    <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +340,6 @@
 
                                 <div class="gallery-thumbnail-overlay">
                                     <div class="gallery-img-title">Салон красоты Май</div>
-                                    <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
                                 </div>
                             </div>
                         </div>
@@ -329,7 +351,6 @@
 
                                 <div class="gallery-thumbnail-overlay">
                                     <div class="gallery-img-title">Салон красоты Май</div>
-                                    <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
                                 </div>
                             </div>
                         </div>
@@ -341,7 +362,6 @@
 
                                 <div class="gallery-thumbnail-overlay">
                                     <div class="gallery-img-title">Салон красоты Май</div>
-                                    <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
                                 </div>
                             </div>
                         </div>
@@ -353,7 +373,6 @@
 
                                 <div class="gallery-thumbnail-overlay">
                                     <div class="gallery-img-title">Салон красоты Май</div>
-                                    <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
                                 </div>
                             </div>
                         </div>
@@ -365,7 +384,6 @@
 
                                 <div class="gallery-thumbnail-overlay">
                                     <div class="gallery-img-title">Салон красоты Май</div>
-                                    <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
                                 </div>
                             </div>
                         </div>
@@ -393,32 +411,11 @@
                         <!--Review Item 1 start-->
                         <div class="item active">
                             <div class="reviews-image">
-                                <img src="img/review-person1.png" alt="Ирина"/>
-                            </div>
-                            <p class="reviews-author">Ирина
-                                <small>
-                                    <span class="reviews-author-rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </span>
-                                </small>
-                            </p>
-                            <p class="reviews-content">Антон Титаренко, отличный мастер! Провёл процедуру микроблейзинг - Антону можно доверить свои брови!</p>
-                        </div>
-                        <!--Review Item 1 end-->
-
-                        <!--Review Item 2 start-->
-                        <div class="item">
-                            <div class="reviews-image">
-                                <img src="img/review-person2.png" alt="Елена"/>
+                                <img src="img/review-person.jpg" alt="Елена"/>
                             </div>
                             <p class="reviews-author">Елена
                                 <small>
                                     <span class="reviews-author-rating">
-                                        <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -428,11 +425,12 @@
                             </p>
                             <p class="reviews-content">Хочу сказать огромное спасибо Антону Титаренко за мои красивые брови. Потрясающая форма и цвет. Нужно сказать, что я с большим опасением пришла на процедуру, тк имела печальный опыт (делала перманент бровей в клинике СПб 10 лет назад). Оставшийся розовый оттенок убирала лазером. Антон внимательный, вежливый и большой профессионал. Смог учесть все мои пожелания. Брови выглядят естественно. Я очень довольна. Спасибо большое.</p>
                         </div>
-                        <!--Review Item 2 end-->
-                        <!--Review Item 3 start-->
+                        <!--Review Item 1 end-->
+
+                        <!--Review Item 2 start-->
                         <div class="item">
                             <div class="reviews-image">
-                                <img src="img/review-person3.png" alt="Анна Демидова"/>
+                                <img src="img/review-person2.jpg" alt="Анастасия"/>
                             </div>
                             <p class="reviews-author">Анастасия
                                 <small>
@@ -447,7 +445,63 @@
                             </p>
                             <p class="reviews-content">Хочу сказать огромное спасибо мастеру Антону Титаренко!!! Давно хотела сделать микроблейдинг бровей, но никак не решалась, боялась не угадать с формой и что будет смотреться искусственно. В итоге порекомендовали Антона и я решилась пойти перед Новым годом и ни разу не пожалела!!!! Даже во время заживления (которое прошло быстро и без всяких проблем) брови выглядели отлично, а сейчас просто супер!!! И цвет, и форма, все мои пожелания учтены))</p>
                         </div>
+                        <!--Review Item 2 end-->
+                        <!--Review Item 3 start-->
+                        <div class="item">
+                            <div class="reviews-image">
+                                <img src="img/review-person3.jpg" alt="Варвара"/>
+                            </div>
+                            <p class="reviews-author">Варвара
+                                <small>
+                                    <span class="reviews-author-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </small>
+                            </p>
+                            <p class="reviews-content">Посетила салон 9 января с целью сделать микроблейдинг бровей. Очень понравилась работа супер профессионала Антона Титаренко!!!! Если бы в салонах города Санкт-Петербурга были такие мастера, как Антон, то уверена, что все женщины были бы счастливы!!! Это настоящий мастер своего дела, который выкладывается полностью, не жалея себя! Я рекомендую абсолютно каждой клиентке воспользоваться услугами этого мастера, потому что результат будет безупречен! На ряду с этим хочу выразить признательность администратору Анастасии Бабаковой за её профессиональный подход к клиентам-с чем я лично столкнулась! Очень чуткая и отзывчивая!</p>
+                        </div>
                         <!--Review Item 3 end-->
+                        <!--Review Item 4 start-->
+                        <div class="item">
+                            <div class="reviews-image">
+                                <img src="img/review-person4.jpg" alt="Татьяна"/>
+                            </div>
+                            <p class="reviews-author">Татьяна
+                                <small>
+                                    <span class="reviews-author-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </small>
+                            </p>
+                            <p class="reviews-content">Давно подумывала сделать татуаж бровей, но, как и многие, не решалась. Тем временем брови становились все реже и создавать красивую форму карандашом становилось все сложнее. Короче, решила рискнуть и ни разу не пожалела. Очень повезло - попала к Антону Титаренко -прекрасному мастеру, настоящему художнику,который ВИДИТ ваше лицо и создает ВАШИ брови, гармонирующие с другими чертами вашего лица, учитывая малейшие нюансы - оттенок волос, кожи, расстояние между бровями, изгиб и т.д. В результате брови выглядят естественно и аккуратно, а внешность кардинально меняется в лучшую сторону.Безмерно благодарна, что мой первый опыт с татуажем оказался таким позитивным.</p>
+                        </div>
+                        <!--Review Item 4 end-->
+                        <!--Review Item 5 start-->
+                        <div class="item">
+                            <div class="reviews-image">
+                                <img src="img/review-person5.jpg" alt="Екатерина"/>
+                            </div>
+                            <p class="reviews-author">Екатерина
+                                <small>
+                                    <span class="reviews-author-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </small>
+                            </p>
+                            <p class="reviews-content">Огромное спасибо салону Май за мои новые красивые брови! Внимательный, чуткий и безусловно очень талантливый мастер тату Антон Титаренко выполнил свою работу безупречно! Цвет и форма подобраны идеально. Никаких болевых ощущений ни во время, ни после выполнения процедуры. Очень довольна! Ещё раз большое спасибо)</p>
+                        </div>
+                        <!--Review Item 5 end-->
                     </div>
 
                     <!-- Indicators -->
@@ -455,6 +509,8 @@
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
                     </ol>
                 </div>
             </div>
@@ -462,133 +518,7 @@
     </div>
 </section>
 <!-- Reviews Info end -->
-<div style="height:60px;width:100%;background:#fff;"></div>
-<!-- Content Img Right start -->
-<section class="content-img-right wow fadeIn" data-wow-offset="100" id="about-us-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 content-img">
-                <img src="img/o-nas.jpg" alt="Content Img Left" class="img-responsive"/>
-            </div>
-            <div class="col-md-6">
-                <h2>Почему нам можно доверить свою красоту и здоровье:</h2>
-                <ul>
-                    <li>Сеть салонов красоты «Май» - более 20 лет на рынке Санкт-Петербурга, 11 салонов бизнес-класса собственных и 2 салона, открытых по франшизе, а также 1 салон премиум-класса Май Hair SPA</li>
-                    <li>Медицинская лицензия № № 78-01-003262 от 18.01.2013 г.</li>
-                    <li>Косметологи с медицинским образованием прошли дополнительное обучение LPG-массажу, ультразвуковой кавитации и RF-лифтингу на аппарате Body Health, BHS - 202</li>
-                    <li>Качественное оборудование: аппарат Body Health, 2017 г., Аргентина.</li>
-                    <li>Мы гарантируем безопасность и комфорт клиента - LPG-массаж проводится с индивидуальным костюмом.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Content Img Right end -->
-<!-- Gallery Salon start -->
-<section class="gallery" data-wow-offset="100" id="gallery-2">
-    <div class="container">
-        <div class="row wow fadeIn" data-wow-offset="200">
-            <div class="col-md-12">
-                <h2 class="text-center">
-                    Посетите нас!
-                </h2>
-            </div>
-        </div>
-        <div class="row gallery-container wow fadeIn">
-            <!--Gallery Item 1 start-->
-            <div class="col-md-4">
-                <div class="gallery-thumbnail-container">
-                    <img class="img-responsive gallery-thumbnail" src="img/salon/1.jpg" data-img="img/salon/1.jpg" alt="Gallery Img">
 
-                    <div class="gallery-thumbnail-overlay">
-                        <div class="gallery-img-title">Салон красоты Май</div>
-                        <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
-                    </div>
-                </div>
-            </div>
-            <!--Gallery Item 1 end-->
-            <!--Gallery Item 2 start-->
-            <div class="col-md-4">
-                <div class="gallery-thumbnail-container">
-                    <img class="img-responsive gallery-thumbnail" src="img/salon/2.jpg" data-img="img/salon/2.jpg" alt="Gallery Img">
-
-                    <div class="gallery-thumbnail-overlay">
-                        <div class="gallery-img-title">Салон красоты Май</div>
-                        <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
-                    </div>
-                </div>
-            </div>
-            <!--Gallery Item 2 end-->
-            <!--Gallery Item 3 start-->
-            <div class="col-md-4">
-                <div class="gallery-thumbnail-container">
-                    <img class="img-responsive gallery-thumbnail" src="img/salon/3.jpg" data-img="img/salon/3.jpg" alt="Gallery Img">
-
-                    <div class="gallery-thumbnail-overlay">
-                        <div class="gallery-img-title">Салон красоты Май</div>
-                        <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
-                    </div>
-                </div>
-            </div>
-            <!--Gallery Item 3 end-->
-            <!--Gallery Item 4 start-->
-            <div class="col-md-4">
-                <div class="gallery-thumbnail-container">
-                    <img class="img-responsive gallery-thumbnail" src="img/salon/4.jpg" data-img="img/salon/4.jpg" alt="Gallery Img">
-
-                    <div class="gallery-thumbnail-overlay">
-                        <div class="gallery-img-title">Салон красоты Май</div>
-                        <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
-                    </div>
-                </div>
-            </div>
-            <!--Gallery Item 4 end-->
-            <!--Gallery Item 5 start-->
-            <div class="col-md-4">
-                <div class="gallery-thumbnail-container">
-                    <img class="img-responsive gallery-thumbnail" src="img/salon/5.jpg" data-img="img/salon/5.jpg" alt="Gallery Img">
-
-                    <div class="gallery-thumbnail-overlay">
-                        <div class="gallery-img-title">Салон красоты Май</div>
-                        <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
-                    </div>
-                </div>
-            </div>
-            <!--Gallery Item 5 end-->
-            <!--Gallery Item 6 start-->
-            <div class="col-md-4">
-                <div class="gallery-thumbnail-container">
-                    <img class="img-responsive gallery-thumbnail" src="img/salon/6.jpg" data-img="img/salon/6.jpg" alt="Gallery Img">
-
-                    <div class="gallery-thumbnail-overlay">
-                        <div class="gallery-img-title">Салон красоты Май</div>
-                        <div class="gallery-img-subtitle">Комендантский пр. 13/1</div>
-                    </div>
-                </div>
-            </div>
-            <!--Gallery Item 6 end-->
-        </div>
-        <!-- Gallery Modal start -->
-        <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel"
-             aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-nav">
-                        <div class="title pull-left"><!-- title via js --></div>
-                        <button type="button" class="close pull-right" data-dismiss="modal"><span
-                                aria-hidden="true">&times;</span><span class="sr-only">Закрыть</span></button>
-                    </div>
-                    <div class="modal-body" id="galleryModalLabel">
-                        <!-- img via js -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Gallery Modal end -->
-    </div>
-</section>
-<!-- Gallery Salon end -->
-<!-- Features Img end -->
 <!-- Contact Gmap start -->
 <section class="contact-form-gmap wow fadeIn" data-wow-offset="100" id="contact">
     <div class="container">
@@ -599,17 +529,25 @@
         </div>
         <div class="row">
             <div class="contact-info">
-                <div class="col-md-6">
-                    <div class="address-icon">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="my-address-icon">
                         <i class="fa fa-map-marker"></i>
                     </div>
-                    <p>Салон красоты «Май».<br> Адрес: <a href="#">Комендантский пр. 13/1</a></p>
+                    <p>13 салонов <br> бизнес-класса</p>
                 </div>
-                <div class="col-md-6">
-                    <div class="phone-icon">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="my-phone-icon">
                         <i class="fa fa-phone"></i>
                     </div>
-                    <p>Если у Вас есть вопросы, мы будем рады проконсультировать вас по  <a href="tel:8 812 34-777-29">тел. 8 (812) 34-777-29</a> или воспользуйтесь формой обратной связи</p>
+                    <p><a href="tel:88123477728">8 (812) 347-77-28</a><br><a href="tel:88123477728">8 (812) 347-77-28</a></p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="time-icon">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <p>пн-сб с 10:00 до 21:00<br>
+                        вск с 11:00 до 21:00
+                    </p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -633,12 +571,8 @@
                                placeholder="Укажите ваш email" required>
                     </div>
                     <div class="form-group">
-                        <label for="subject">Тема:</label>
-                        <input type="text" name="subject" class="form-control" id="subject" placeholder="Укажите тему">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Сообщение:</label>
-                        <textarea id="message" name="message" class="form-control" rows="3" required></textarea>
+                        <label for="subject">Телефон:</label>
+                        <input type="text" name="phone" class="form-control" id="subject" placeholder="Укажите номер телефона" required>
                     </div>
                     <div class="form-group">
                         <div class="row form-actions">
