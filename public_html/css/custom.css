@@ -1,23 +1,259 @@
+section
+{
+    padding:45px 0;
+}
+.section-top
+{
+    margin-top: 90px;
+}
+/* Banner open */
+.banner-bg
+{
+    background: #dfe9ec;
+    width: 100%;
+    height:auto;
+}
+.banner-microblading
+{
+    background: #dfe9ec;
+    padding-top:85px;
+    max-width: 1280px;
+    width: 100%;
+    height:auto;
+	text-align:center;
+    position: relative;
+    margin: auto;
+}
+
+.background-images
+{
+    height:517px;
+    max-height:100%;
+    max-width:100%;
+}
 .cd-intro
 {
-    background-color:rgba(255,255,255,0.7);
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    margin: auto;
+    right: 100px;
+    display: block;
+    height: 259px;
+    width: 35.714285%;
+    text-align: center;
 }
+.cd-words-wrapper {
+    text-align:center;
+}
+.cd-intro h1
+{
+    font-size: 36px;
+    color: #dc222b;
+}
+
 .cd-intro p
 {
-    color:#3b77b7;
+    color:#000000;
+    font-size: 22px;
     padding-bottom:15px;
+    line-height: 1.5;
 }
-.cd-desc
-{
-    background-color:rgba(255,255,255,0.7);
-    color:#3b77b7;
-    padding-bottom: 5px;
-}
-.cd-desc p
+@media (max-width: 1260px)
 {
 
-    color:#3b77b7;
-}#button-phone {display:none;}
+    .cd-intro h1
+    {
+        font-size: 32px;
+    }
+	.banner-microblading img
+	{
+    height:auto;
+    max-height:100%;
+    max-width:100%;
+	}
+    .cd-intro p
+    {
+        font-size: 20px;
+    }
+    .cd-intro
+    {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        padding-top: 65px;
+        right: 0;
+        display: block;
+        height: auto;
+        width: 100%;
+        background: #fff;
+    }
+    .section-top
+    {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 460px)
+{
+    .cd-intro
+    {
+        top: 0;
+    }
+    .cd-intro h1
+    {
+        font-size: 20px;
+    }
+
+    .cd-intro p
+    {
+        font-size: 18px;
+    }
+    .cd-intro
+    {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        padding-top: 65px;
+        right: 0;
+        display: block;
+        height: auto;
+        width: 100%;
+        background: #fff;
+    }
+    .section-top
+    {
+        margin-top: 0;
+    }
+}
+/* Banner close  */
+/* Gallery job */
+.my-gallery {
+    padding-top: 65px;
+}
+/* Gallery job end */
+/* Gallery sallon */
+
+.tab-content .gallery .gallery-container
+{
+    border-top:0;
+    margin:0;
+    padding:0;
+}
+/* Gallery sallon end */
+/* Result */
+.result h2
+{
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.result .title
+{
+    padding-bottom: 60px;
+}
+.result p
+{
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.result .result-block
+{
+    padding-top: 20px;
+}
+.result .result-icon i
+{
+    width: 86px;
+    height: 86px;
+    border: 2px solid #dc222b;
+    text-align: center;
+    font-size: 48px;
+    color: #dc222b;
+    line-height: 86px;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 43px;
+    margin: auto;
+}
+.result .result-icon
+{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: #dc222b;
+    margin: auto;
+}
+
+/* Result end */
+/* icons */
+.contact-form-gmap .contact-info .my-address-icon i,
+.contact-form-gmap .contact-info .my-phone-icon i,
+.contact-form-gmap .contact-info .time-icon i
+{
+    width: 86px;
+    height: 86px;
+    border: 2px solid #dc222b;
+    text-align: center;
+    font-size: 48px;
+    color: #dc222b;
+    line-height: 86px;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 43px;
+    margin: auto;
+}
+.contact-form-gmap .contact-info .my-address-icon,
+.contact-form-gmap .contact-info .my-phone-icon,
+.contact-form-gmap .contact-info .time-icon
+{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: #dc222b;
+    margin: auto;
+}
+.contact-form-gmap .contact-info {
+    padding-bottom: 60px;
+    margin: 0 15px 60px 15px;
+    border-bottom: 1px solid #b5bcc5;
+    text-align: center;
+}
+.contact-form-gmap .contact-info p {
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+/* end icons */
+/* Contacs */
+.contact-form-gmap h2
+{
+    text-align: center;
+}
+.contact-form-gmap .contact-info a
+{
+    color:#575756;
+}
+.contact-form-gmap .contact-info a:hover,
+.contact-form-gmap .contact-info a:focus
+{
+    color:#dc222b;
+    text-decoration: none;
+}
+/* Contact end */
+/* tabpanel */
+.tab-content .tab-content-nav {
+    border-bottom:0;
+}
+.tab-content .tab-content {
+    border-bottom:0;
+}
+/* end Tabpanel */
+#button-phone {display:none;}
 #treatments
 {
     margin: 0;
@@ -27,7 +263,7 @@
     font-size: 48px;
     font-weight: 300;
     line-height: 1.2;
-    margin: -25px 0 80px;
+    margin: 0 0 40px;
     padding-top: 0;
 }
 .gallery .gallery-container .gallery-thumbnail-container {
@@ -35,19 +271,22 @@
     height: 175px;
     overflow: hidden;
 }
-.gallery-desc
-{
-    padding-top: 20px;
-    margin-top:20px ;
+.gallery .gallery-container {
+    border-bottom:1px solid #575756;
+    margin:0;
+    padding:0 0 85px;
+    font-weight: bold;
 }
 .gallery-desc
 {
-    border-bottom: 1px solid #b5bcc5;
-    padding-bottom: 45px;
-
+    padding-top: 42px;
+    margin-top:20px ;
+    border-top: 1px solid #575756;
+    padding-bottom: 40px;
+    color:#575756;
 }
 .gallery-desc ul li i {
-    color:#3b77b7;
+    color:#dc222b;
     font-size:36px !important;
     margin-right: 5px;
     text-align:center;
@@ -80,7 +319,7 @@
 }
 .content-img-right h2,.content-img-left h2
 {
-    color:#3b77b7;
+    color:#dc222b;
 }
 
 /* Слайдер Блок */
@@ -92,7 +331,7 @@
     padding-top: -20px;
 }
 .header-full-screen-img {
-    background:url("../img/header-background-3.jpg") 0 0 / cover no-repeat scroll #CCCCCC;
+    background:url("../img/header-background-3.jpg") 0 85px / cover no-repeat scroll #CCCCCC;
     padding-top:380px;
 }
 .s-block p
@@ -135,7 +374,7 @@
 #appointmentModal .modal-dialog .modal-content .modal-body .personal-information .input-group-addon {
     border: none;
     color: #ffffff;
-    background-color: #3b77b7;
+    background-color: #dc222b;
     font-size: 24px;
 }
 #appointmentModal .modal-dialog .modal-content .modal-body .personal-information .input-group-addon {
@@ -153,7 +392,7 @@
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-header {
     color: #fff;
-    background-color: #3b77b7;
+    background-color: #dc222b;
     border-bottom: none;
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-header .close {
@@ -182,13 +421,13 @@
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #3b77b7;
+    color: #dc222b;
     margin-top: 0;
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-body h3 {
     margin: 0;
     font-size: 18px;
-    color: #3b77b7;
+    color: #dc222b;
     font-weight: bold;
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-body h3 i {
@@ -226,7 +465,7 @@
     right: 15px;
     top: 17px;
     font-size: 24px;
-    color: #3b77b7;
+    color: #dc222b;
     z-index: 6;
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select select {
@@ -242,7 +481,7 @@
     -moz-appearance: none;
     -ms-progress-appearance: none;
     box-shadow: none;
-    color: #3b77b7;
+    color: #dc222b;
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .service-select:before {
     display: block;
@@ -282,7 +521,7 @@
     position: absolute;
     right: 18px;
     top: 12px;
-    color: #3b77b7;
+    color: #dc222b;
     z-index: 6;
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .time-select select {
@@ -311,7 +550,7 @@
 #appointmentModal-2 .modal-dialog .modal-content .modal-body .service-and-date .input-group-addon {
     border: none;
     color: #ffffff;
-    background-color: #3b77b7;
+    background-color: #dc222b;
     font-size: 24px;
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-body hr {
@@ -380,7 +619,7 @@
 }
 #appointmentModal-2 .modal-dialog .modal-content .modal-body .newsletter-checkbox input[type=checkbox]:checked + label:before {
     content: "\2713";
-    color: #3b77b7;
+    color: #dc222b;
     font-size: 26px;
     text-shadow: none;
 }
@@ -401,7 +640,7 @@
 #appointmentModal-2 .modal-dialog .modal-content .modal-body .personal-information .input-group-addon {
     border: none;
     color: #ffffff;
-    background-color: #3b77b7;
+    background-color: #dc222b;
     font-size: 24px;
 }
 @media (max-width: 992px)
